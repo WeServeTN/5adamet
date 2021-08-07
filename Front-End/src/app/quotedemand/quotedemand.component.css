@@ -43,7 +43,7 @@ background-position: center;
   color:black;
 }
 .btn-style{
-  border-radius: 40px;
+  border-radius: 20px;
   background:linear-gradient(to left, rgb(23, 60, 226) , rgb(65, 173, 223) );
   padding: 3px 40px;
   color: rgb(251, 251, 251);
@@ -53,7 +53,7 @@ background-position: center;
   background:linear-gradient(to left, rgb(9, 30, 126) , rgb(19, 84, 114) );
 }
 .button-edit{
-  border-radius: 40px;
+  border-radius: 20px;
   background:linear-gradient(to left, rgb(76, 107, 3) , rgb(115, 134, 44) );
   padding: 3px 40px;
   color: rgb(251, 251, 251);
@@ -61,7 +61,7 @@ background-position: center;
 }
 
 .button-delete{
-  border-radius: 40px;
+  border-radius: 20px;
   background:linear-gradient(to left, rgb(236, 43, 53) , rgb(116, 4, 4) );
   padding: 3px 40px;
   color: rgb(251, 251, 251);

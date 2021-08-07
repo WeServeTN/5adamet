@@ -31,6 +31,7 @@ import { PaymentComponent } from './payment/payment.component';
 
 
 import { StripeCheckoutComponent } from './stripe-checkout/stripe-checkout.component';
+import { ServProvidersComponent } from './serv-providers/serv-providers.component';
 
 
 const routes: Routes = [

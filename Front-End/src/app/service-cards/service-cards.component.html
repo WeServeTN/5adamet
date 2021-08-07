@@ -20,12 +20,12 @@
 
 <br>
 <section id="gallery" >
-  <h1>COST ESTIMATION REQUESTS</h1>
-  <div class="container-fluid content-row">
+  <h1 class="fs-3 mx-5">COST ESTIMATION REQUESTS</h1>
+  <div class="container-fluid content-row px-5">
     <div class="row">
-    <div class="col-lg-4 mb-4" *ngFor="let cost of costestimationsArray">
-    <div class="card" *ngIf="cost?.status == 'NOTRESERVED'">
-      <img [src]="cost?.image" height="200px" width="auto">
+    <div class="col-sm-12 col-lg-2 mb-4" *ngFor="let cost of costestimationsArray">
+    <div class="card h-100" *ngIf="cost?.status == 'NOTRESERVED'">
+      <img [src]="cost?.image" class="card-img-top h-50">
       <div class="card-body">
         <p class="card-title" style="color: gray;"><strong>{{cost.city}} {{cost.date}}</strong></p>
         <p class="card-text"><strong>{{cost.description}}</strong></p>
@@ -55,9 +55,9 @@
     </button></div>
   </div>
   <div class="collapse" id="collapseExample">
-    <div class="col-lg-4" *ngFor="let answer of costanswersArray">
+    <div class="col-lg-4 m-5 p-3" *ngFor="let answer of costanswersArray">
       <div class="card card-margin">
-          <div class="card-body pt-0">
+          <div class="card-body">
               <div class="widget-49">
                   <div class="widget-49-title-wrapper">
                       <div class="widget-49-date-primary">
