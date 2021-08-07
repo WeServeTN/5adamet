@@ -13,7 +13,6 @@ import { SignupComponent } from './signup/signup.component';
 import { StepComponent } from './step/step.component'
 import { SuccessComponent } from './success/success.component';
 import { UpdateComponent } from './update/update.component';
-import { ServProvidersComponent } from './serv-providers/serv-providers.component';
 import { SuccesspurchaseComponent } from './successpurchase/successpurchase.component';
 import { ErrorComponent } from './error/error.component';
 import { FormComponent } from './form/form.component';
@@ -32,6 +31,7 @@ import { PaymentComponent } from './payment/payment.component';
 
 
 import { StripeCheckoutComponent } from './stripe-checkout/stripe-checkout.component';
+import { ServProvidersComponent } from './serv-providers/serv-providers.component';
 
 
 const routes: Routes = [

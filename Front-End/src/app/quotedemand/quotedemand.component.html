@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8" >
-        <h1 class="text mt-4"><strong>COST ESTIMATION REQUEST</strong></h1>
+        <h1 class="fs-3 text-start fw-bold mt-4">COST ESTIMATION REQUEST</h1>
     <form class="form mt-5" #fbForm="ngForm" (ngSubmit)="submit(fbForm)">
       <label>Please Choose The Main Service You Need</label>
           <div class="form-floating mb-3" >
@@ -56,9 +56,9 @@
  
     <div class="collapse" id="collapseExample">
       <br>
-      <div class="col-lg-4" *ngFor="let answer of costanswersArray">
+      <div class="col-lg-4 p-3" *ngFor="let answer of costanswersArray">
         <div class="card card-margin">
-            <div class="card-body pt-0">
+            <div class="card-body">
                 <div class="widget-49">
                     <div class="widget-49-title-wrapper">
                         <div class="widget-49-date-primary">
@@ -69,12 +69,12 @@
                             <span class="widget-49-pro-title">please check the answer of <strong>{{answer.spname}}</strong> </span>
                             <span class="widget-49-meeting-time">{{answer.date}}</span>
                         </div>
-                    </div>
-          <h3 style="margin-left: 90px;">{{answer.description}}</h3><br>
+                    </div>  
+          <p style="margin-left: 90px;">{{answer.description}}</p><br>
           <h3 style="margin-left: 90px;">TOTAL COST : {{answer.total}}</h3>
-                    <div class="widget-49-meeting-action">
-                        <a  class="btn btn-sm btn-primary">Accept Offer</a>
-                        <a  class="btn btn-sm button-delete">Decline Offer</a>
+                    <div class="widget-49-meeting-action ">
+                        <a  class="btn btn-sm btn-primary ">Accept Offer</a>
+                        <a  class="btn btn-sm button-delete mx-2">Decline Offer</a>
                     </div>
                 </div>
             </div>

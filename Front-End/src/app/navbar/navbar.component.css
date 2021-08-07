@@ -26,6 +26,10 @@ border-radius: 3px;
 }
 
 .btn:hover{
-    background-color:#9c1520;
+    background-color:#7b50be;
+}
+
+.btn .nav-link:hover{
+    color: white;
 }
 

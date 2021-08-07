@@ -16,7 +16,7 @@
 <div class="card" *ngFor="let rev of reviews">
   <div class="card-body clearfix">
 
-    <div class="card-left">
+    <div class="card-left p-4">
       <img class="card-img" src="../../assets/images/userano.png">
       <br><br>
       <p class="card-text">{{rev.city}} </p>
@@ -24,21 +24,21 @@
       
     </div>
 
-    <div class="profile-info"><p class="card-title">{{rev.username}}</p><p class="card-text">SP : {{rev.sp_name}} </p>
+    <div class="profile-info"><p class="card-title px-2">{{rev.username}}</p><p class="card-text">SP : {{rev.sp_name}} </p>
       </div>
     </div>
       <br>
       <br>
     <div class="feedback">
       
-      <div class="star-widget">
+      <div class="star-widget px-2">
         <span [ngStyle]="{color:rev.rating>=1?'#fd4':'rgb(87, 86, 86)'}" class="fa fa-star rate-1"></span>
         <span [ngStyle]="{color:rev.rating>=2?'#fd4':'rgb(87, 86, 86)'}" class="fa fa-star rate-2"></span>
         <span [ngStyle]="{color:rev.rating>=3?'#fd4':'rgb(87, 86, 86)'}" class="fa fa-star rate-3"></span>
         <span [ngStyle]="{color:rev.rating>=4?'#fd4':'rgb(87, 86, 86)'}" class="fa fa-star rate-4"></span>
         <span [ngStyle]="{color:rev.rating==5?'#fd4':'rgb(87, 86, 86)'}" class="fa fa-star rate-5"></span>
         <p class="card-date fa">&nbsp;&nbsp;{{rev.date}}</p></div>
-        <p class="fb-text">{{rev.feedback}}</p>
+        <p class="fb-text fs-3">{{rev.feedback}}</p>
      
     </div>
     

@@ -22,7 +22,9 @@
         <td id="editrow">{{service.quantity}}</td>
         <td >
           <div class="row justify-content-around">
-            <div class="col-4 "><button class=" btn-danger" (click)="deletefrmcart(service)">delete</button></div>
+            <div class="col-4 ">
+              <button class=" btn-danger" (click)="deletefrmcart(service)">delete</button>
+            </div>
         </div>
         </td>
       </tr>
@@ -42,12 +44,13 @@
   </div>
 
 
-  <div class="container">
+  <div class="container my-3">
     <div class="m-4 text-center">
         <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#checkout" aria-expanded="false" aria-controls="collapseExample">
           checkout
-        </button></div>
+        </button>
         <button type="button" class="btn btn-primary" (click)="askforcost()"><span class="cart-hide">Ask For A Cost (Destined for Big Project ) </span></button>
+      </div>
 
   <div id="checkout" class="collapse">
     <div class="row">
@@ -83,10 +86,10 @@
                 <h3>Payment</h3>
                 <label for="fname">Accepted Cards</label>
                 <div class="icon-container">
-                  <i class="fa fa-cc-visa" style="color:navy;"></i>
-                  <i class="fa fa-cc-amex" style="color:blue;"></i>
-                  <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                  <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  <i class="fa fa-cc-visa mx-2" style="color:navy;"></i>
+                  <i class="fa fa-cc-amex mx-2" style="color:blue;"></i>
+                  <i class="fa fa-cc-mastercard mx-2" style="color:red;"></i>
+                  <i class="fa fa-cc-discover mx-2" style="color:orange;"></i>
                 </div>
                 <label for="cname">Name on Card</label>
                 <input type="text" id="cname" name="cardname" formControlName="cardname" placeholder="John More Doe">
@@ -123,12 +126,7 @@
           </form>
         </div>
       </div>
-    
-      
     </div>
-    
-
- 
   </div>
 
 
